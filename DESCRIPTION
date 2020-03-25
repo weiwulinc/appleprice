@@ -1,0 +1,14 @@
+Package: appleprice
+Type: Package
+Title: Predict Apple Price
+Version: 0.1
+Authors@R: person(given = "Jeroen", family = "Ooms", role = c("aut"))
+           person(given = "Wei", family = "Wu", 
+                  email = "wei.wu@lincresearch.com", role = c("cre","ctb"))
+Description: This package forecaste the closing stock price of apple based its opening price.
+License:  Apache License 2.0
+Encoding: UTF-8
+LazyData: false
+Depends: R (>= 3.5.0)
+Imports: Quandl
+RoxygenNote: 7.1.0
